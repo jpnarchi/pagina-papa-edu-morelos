@@ -1,10 +1,433 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=92262a8f-28e8-44e8-885a-2ad8807ea1a1
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Página Papá Edu Morelos</title>
+  <title>Perla del Pacífico Acapulco</title>
+  <meta name="description" content="Tu nueva forma de vivir en Guerrero.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css?v=9">
 </head>
 <body>
+  <header class="site-header">
+    <div class="brand">
+      <img src="./assets/logo-acapulco.png" alt="Perla del Pacífico Acapulco — Guerrero">
+    </div>
+    <nav class="site-nav">
+      <a href="#nosotros">Nosotros</a>
+      <a href="#concepto">Concepto</a>
+      <a href="#amenidades">Amenidades</a>
+      <a href="#fotos">Galería</a>
+      <a href="#propiedades">Propiedades</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="nosotros">
+      <div class="hero-copy">
+        <p class="eyebrow">Guerrero</p>
+        <h1>Perla del Pacífico Acapulco</h1>
+        <p class="lede">Tu nueva forma de vivir</p>
+        <a class="button" href="#contacto">Solicitar información</a>
+      </div>
+      <div class="hero-media">
+        <img src="./assets/mayan-05.jpg" alt="Alberca y playa de Mayan Island">
+      </div>
+    </section>
+
+    <section class="section" id="concepto">
+      <div class="section-heading">
+        <p class="eyebrow">El concepto</p>
+        <h2>Invierte en una propiedad de lujo por una fracción del costo total.</h2>
+      </div>
+      <div class="concept-grid">
+        <article class="concept-card">
+          <img loading="lazy" src="./assets/mayan-15.jpg" alt="Acceso principal de Mayan Island Playa">
+          <p>Puedes ser co-propietario de un departamento nuevo y amueblado sin pagar millones.</p>
+        </article>
+        <article class="concept-card">
+          <img loading="lazy" src="./assets/mayan-06.jpg" alt="Jardines y edificios de Mayan Island">
+          <p>Disfruta de la propiedad durante las semanas que te corresponden.</p>
+        </article>
+        <article class="concept-card">
+          <img loading="lazy" src="./assets/mayan-16.jpg" alt="Acceso cubierto y fuente del desarrollo">
+          <p>Obtén grandes retornos de inversión y alta plusvalía.</p>
+        </article>
+        <article class="concept-card">
+          <img loading="lazy" src="./assets/mayan-17.jpg" alt="Entrada y áreas verdes de Mayan Island">
+          <p>Todos los servicios incluidos: limpieza, mantenimiento y concierge.</p>
+        </article>
+        <article class="concept-card">
+          <img loading="lazy" src="./assets/mayan-04.jpg" alt="Alberca y palapa del desarrollo">
+          <p>Todo está regulado por un fideicomiso constituido con un banco de renombre.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Galería</p>
+        <h2><mark class="copy-pending">Espacios pensados para vivir la naturaleza con confort.</mark></h2>
+      </div>
+      <div class="gallery-grid">
+        <img loading="lazy" src="./assets/mayan-01.jpg" alt="Cancha de pádel y áreas deportivas">
+        <img loading="lazy" src="./assets/mayan-02.jpg" alt="Cancha deportiva entre jardines y palmeras">
+        <img loading="lazy" src="./assets/mayan-10.jpg" alt="Alberca frente al mar">
+        <img loading="lazy" src="./assets/mayan-07.jpg" alt="Alberca infantil con juegos acuáticos">
+        <img loading="lazy" src="./assets/mayan-14.jpg" alt="Cancha deportiva y jardines">
+        <img loading="lazy" src="./assets/mayan-15.jpg" alt="Acceso principal de Mayan Island Playa">
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="eyebrow">Ubicación privilegiada</p>
+        <p><mark class="copy-pending">Se encuentra ubicado a una cuadra de Av. Kukulkán, en un entorno rodeado de selva y brinda un estilo de vida privilegiado.</mark></p>
+        <p><mark class="copy-pending">Una zona que destaca por su exclusividad y maravillosa oferta turística.</mark></p>
+        <p><mark class="copy-pending">Le Réve Cenote se encuentra inmerso en la zona más codiciada de Tulum, a tan sólo 3 minutos de la playa y la mundialmente conocida zona hotelera.</mark></p>
+      </div>
+      <div class="stacked-images">
+        <img loading="lazy" src="./assets/mayan-06.jpg" alt="Jardines y edificios de Mayan Island">
+        <img loading="lazy" src="./assets/mayan-17.jpg" alt="Entrada y áreas verdes de Mayan Island">
+        <img loading="lazy" src="./assets/mayan-05.jpg" alt="Alberca y playa de Mayan Island">
+      </div>
+    </section>
+
+    <section class="section split" id="amenidades">
+      <div>
+        <p class="eyebrow">Amenidades</p>
+        <h2><mark class="copy-pending">Todo dentro del desarrollo.</mark></h2>
+        <ul class="amenity-list">
+          <li><mark class="copy-pending">Cowork</mark></li>
+          <li><mark class="copy-pending">Cenote central</mark></li>
+          <li><mark class="copy-pending">Pool bar</mark></li>
+          <li><mark class="copy-pending">Jungle gym</mark></li>
+          <li><mark class="copy-pending">Restaurante</mark></li>
+          <li><mark class="copy-pending">Seguridad</mark></li>
+        </ul>
+      </div>
+      <div class="amenity-photos">
+        <img loading="lazy" src="./assets/mayan-11.jpg" alt="Cancha de pádel del desarrollo">
+        <img loading="lazy" src="./assets/mayan-07.jpg" alt="Alberca infantil con juegos acuáticos">
+        <img loading="lazy" src="./assets/mayan-08.jpg" alt="Bar junto a la alberca">
+        <img loading="lazy" src="./assets/mayan-18.jpg" alt="Salón de juegos con vista al mar">
+      </div>
+    </section>
+
+    <section class="section" id="fotos">
+      <div class="section-heading">
+        <p class="eyebrow">Galería por propiedad</p>
+        <h2>Conoce cada departamento por dentro.</h2>
+      </div>
+
+      <div class="property-gallery">
+        <h3><mark class="copy-pending">Terraza</mark></h3>
+        <div class="carousel">
+          <button class="carousel-btn prev" type="button" aria-label="Ver fotos anteriores">‹</button>
+          <div class="carousel-track">
+            <img loading="lazy" src="./assets/terraza-1.jpg" alt="Terraza — recámara con clóset de madera">
+            <img loading="lazy" src="./assets/terraza-2.jpg" alt="Terraza — estancia con ventanal">
+            <img loading="lazy" src="./assets/terraza-3.jpg" alt="Terraza — cocina con barra">
+            <img loading="lazy" src="./assets/terraza-4.jpg" alt="Terraza — estancia con techo de madera">
+            <img loading="lazy" src="./assets/terraza-5.jpg" alt="Terraza — medio baño para visitas">
+            <img loading="lazy" src="./assets/terraza-6.jpg" alt="Terraza — recámara con ventanal">
+          </div>
+          <button class="carousel-btn next" type="button" aria-label="Ver más fotos">›</button>
+        </div>
+      </div>
+
+      <div class="property-gallery">
+        <h3><mark class="copy-pending">Terraza Plus</mark></h3>
+        <div class="carousel">
+          <button class="carousel-btn prev" type="button" aria-label="Ver fotos anteriores">‹</button>
+          <div class="carousel-track">
+            <img loading="lazy" src="./assets/terraza-plus-1.jpg" alt="Terraza Plus — recámara principal">
+            <img loading="lazy" src="./assets/terraza-plus-2.jpg" alt="Terraza Plus — baño con regadera">
+            <img loading="lazy" src="./assets/terraza-plus-3.jpg" alt="Terraza Plus — segunda recámara">
+            <img loading="lazy" src="./assets/terraza-plus-4.jpg" alt="Terraza Plus — cocina con barra de madera">
+            <img loading="lazy" src="./assets/terraza-plus-5.jpg" alt="Terraza Plus — comedor">
+            <img loading="lazy" src="./assets/terraza-plus-6.jpg" alt="Terraza Plus — sala y comedor vistos desde la entrada">
+            <img loading="lazy" src="./assets/terraza-plus-7.jpg" alt="Terraza Plus — terraza con alberca privada">
+            <img loading="lazy" src="./assets/terraza-plus-8.jpg" alt="Terraza Plus — vista al conjunto desde la terraza">
+            <img loading="lazy" src="./assets/terraza-plus-9.jpg" alt="Terraza Plus — comedor junto al ventanal">
+            <img loading="lazy" src="./assets/terraza-plus-10.jpg" alt="Terraza Plus — sala con vista al comedor">
+            <img loading="lazy" src="./assets/terraza-plus-11.jpg" alt="Terraza Plus — sala de estar">
+            <img loading="lazy" src="./assets/terraza-plus-12.jpg" alt="Terraza Plus — fachada y áreas comunes">
+          </div>
+          <button class="carousel-btn next" type="button" aria-label="Ver más fotos">›</button>
+        </div>
+      </div>
+
+      <div class="property-gallery">
+        <h3><mark class="copy-pending">PH</mark></h3>
+        <div class="carousel">
+          <button class="carousel-btn prev" type="button" aria-label="Ver fotos anteriores">‹</button>
+          <div class="carousel-track">
+            <img loading="lazy" src="./assets/ph-1.jpg" alt="PH — estancia con ventanal de doble altura">
+            <img loading="lazy" src="./assets/ph-2.jpg" alt="PH — recámara">
+            <img loading="lazy" src="./assets/ph-3.jpg" alt="PH — recámara con barra de madera">
+            <img loading="lazy" src="./assets/ph-6.jpg" alt="PH — recámara principal">
+            <img loading="lazy" src="./assets/ph-7.jpg" alt="PH — recámara secundaria">
+            <img loading="lazy" src="./assets/ph-4.jpg" alt="PH — escalera al roof garden">
+            <img loading="lazy" src="./assets/ph-5.jpg" alt="PH — roof garden con alberca">
+          </div>
+          <button class="carousel-btn next" type="button" aria-label="Ver más fotos">›</button>
+        </div>
+      </div>
+
+      <div class="property-gallery">
+        <h3><mark class="copy-pending">PH Plus</mark></h3>
+        <div class="carousel">
+          <button class="carousel-btn prev" type="button" aria-label="Ver fotos anteriores">‹</button>
+          <div class="carousel-track">
+            <img loading="lazy" src="./assets/ph-plus-1.jpg" alt="PH Plus — recámara">
+            <img loading="lazy" src="./assets/ph-plus-2.jpg" alt="PH Plus — estancia principal">
+            <img loading="lazy" src="./assets/ph-plus-3.jpg" alt="PH Plus — cocina con barra">
+            <img loading="lazy" src="./assets/ph-plus-4.jpg" alt="PH Plus — recámara con ventanal">
+            <img loading="lazy" src="./assets/ph-plus-5.jpg" alt="PH Plus — baño con celosía de madera">
+            <img loading="lazy" src="./assets/ph-plus-6.jpg" alt="PH Plus — roof garden">
+            <img loading="lazy" src="./assets/ph-plus-7.jpg" alt="PH Plus — habitación con tragaluz">
+            <img loading="lazy" src="./assets/ph-plus-8.jpg" alt="PH Plus — estancia de doble altura">
+            <img loading="lazy" src="./assets/ph-plus-9.jpg" alt="PH Plus — interior con tragaluz y ventanales">
+          </div>
+          <button class="carousel-btn next" type="button" aria-label="Ver más fotos">›</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="propiedades">
+      <div class="section-heading">
+        <p class="eyebrow">Propiedades</p>
+        <h2><mark class="copy-pending">Cuatro departamentos diseñados<br>para diferentes estilos de escapadas</mark></h2>
+      </div>
+      <div class="property-grid">
+        <article class="property-card">
+          <img loading="lazy" class="property-plan" src="./assets/plano-terraza.jpg" alt="Plano del departamento Terraza">
+          <div class="property-body">
+            <span class="property-number">No. 1</span>
+            <h3><mark class="copy-pending">Terraza</mark></h3>
+            <p><mark class="copy-pending"><strong>Área total:</strong> 84 m²</mark></p>
+            <p><mark class="copy-pending"><strong>Distribución:</strong> 2 recámaras / 2 baños completos / estacionamiento</mark></p>
+            <ul>
+              <li><mark class="copy-pending">Terraza con jacuzzi</mark></li>
+              <li><mark class="copy-pending">Estancia</mark></li>
+              <li><mark class="copy-pending">Cocina con barra</mark></li>
+              <li><mark class="copy-pending">Área de lavado</mark></li>
+              <li><mark class="copy-pending">½ baño para visitas</mark></li>
+              <li><mark class="copy-pending">Lock-off para visitas</mark></li>
+            </ul>
+          </div>
+        </article>
+        <article class="property-card">
+          <img loading="lazy" class="property-plan" src="./assets/plano-terraza-plus.jpg" alt="Plano del departamento Terraza Plus">
+          <div class="property-body">
+            <span class="property-number">No. 2</span>
+            <h3><mark class="copy-pending">Terraza Plus</mark></h3>
+            <p><mark class="copy-pending"><strong>Área total:</strong> 111 m²</mark></p>
+            <p><mark class="copy-pending"><strong>Distribución:</strong> 2 recámaras / 2 baños completos / estacionamiento</mark></p>
+            <ul>
+              <li><mark class="copy-pending">Terraza con jacuzzi</mark></li>
+              <li><mark class="copy-pending">Estancia</mark></li>
+              <li><mark class="copy-pending">Cocina con barra</mark></li>
+              <li><mark class="copy-pending">Área de lavado</mark></li>
+              <li><mark class="copy-pending">½ baño para visitas</mark></li>
+              <li><mark class="copy-pending">Lock-off para visitas</mark></li>
+            </ul>
+          </div>
+        </article>
+        <article class="property-card">
+          <div class="property-plans">
+            <figure>
+              <img loading="lazy" class="property-plan" src="./assets/plano-ph-baja.jpg" alt="Plano de planta baja del PH">
+              <figcaption><mark class="copy-pending">Planta baja</mark></figcaption>
+            </figure>
+            <figure>
+              <img loading="lazy" class="property-plan" src="./assets/plano-ph-alta.jpg" alt="Plano de planta alta del PH">
+              <figcaption><mark class="copy-pending">Planta alta</mark></figcaption>
+            </figure>
+          </div>
+          <div class="property-body">
+            <span class="property-number">No. 3</span>
+            <h3><mark class="copy-pending">PH</mark></h3>
+            <p><mark class="copy-pending"><strong>Área total:</strong> 157 m²</mark></p>
+            <p class="floor-label"><mark class="copy-pending">Planta baja</mark></p>
+            <ul>
+              <li><mark class="copy-pending">2 recámaras con baño</mark></li>
+              <li><mark class="copy-pending">Terraza con jacuzzi</mark></li>
+              <li><mark class="copy-pending">Estancia</mark></li>
+              <li><mark class="copy-pending">Cocina con barra</mark></li>
+              <li><mark class="copy-pending">Área de lavado</mark></li>
+              <li><mark class="copy-pending">½ baño para visitas</mark></li>
+              <li><mark class="copy-pending">Lock-off</mark></li>
+            </ul>
+            <p class="floor-label"><mark class="copy-pending">Planta alta</mark></p>
+            <ul>
+              <li><mark class="copy-pending">Roof garden</mark></li>
+              <li><mark class="copy-pending">Baño</mark></li>
+              <li><mark class="copy-pending">Closet</mark></li>
+              <li><mark class="copy-pending">Barra con asador y tarja</mark></li>
+              <li><mark class="copy-pending">Asoleador</mark></li>
+              <li><mark class="copy-pending">Alberca</mark></li>
+            </ul>
+          </div>
+        </article>
+        <article class="property-card">
+          <div class="property-plans">
+            <figure>
+              <img loading="lazy" class="property-plan" src="./assets/plano-ph-plus-baja.jpg" alt="Plano de planta baja del PH Plus">
+              <figcaption><mark class="copy-pending">Planta baja</mark></figcaption>
+            </figure>
+            <figure>
+              <img loading="lazy" class="property-plan" src="./assets/plano-ph-plus-alta.jpg" alt="Plano de planta alta del PH Plus">
+              <figcaption><mark class="copy-pending">Planta alta</mark></figcaption>
+            </figure>
+          </div>
+          <div class="property-body">
+            <span class="property-number">No. 4</span>
+            <h3><mark class="copy-pending">PH Plus</mark></h3>
+            <p><mark class="copy-pending"><strong>Área total:</strong> 189 m²</mark></p>
+            <p class="floor-label"><mark class="copy-pending">Planta baja</mark></p>
+            <ul>
+              <li><mark class="copy-pending">2 recámaras con baño</mark></li>
+              <li><mark class="copy-pending">Terraza con jacuzzi</mark></li>
+              <li><mark class="copy-pending">Estancia</mark></li>
+              <li><mark class="copy-pending">Cocina con barra</mark></li>
+              <li><mark class="copy-pending">Área de lavado</mark></li>
+              <li><mark class="copy-pending">½ baño para visitas</mark></li>
+              <li><mark class="copy-pending">Lock-off</mark></li>
+            </ul>
+            <p class="floor-label"><mark class="copy-pending">Planta alta</mark></p>
+            <ul>
+              <li><mark class="copy-pending">Roof garden</mark></li>
+              <li><mark class="copy-pending">Baño</mark></li>
+              <li><mark class="copy-pending">Closet</mark></li>
+              <li><mark class="copy-pending">Barra con asador y tarja</mark></li>
+              <li><mark class="copy-pending">Asoleador</mark></li>
+              <li><mark class="copy-pending">Alberca</mark></li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contacto">
+      <div class="section-heading">
+        <p class="eyebrow">Contáctanos</p>
+        <h2>Agenda una llamada y recibe más información.</h2>
+      </div>
+      <form class="contact-form" id="contact-form">
+        <label>
+          Nombre
+          <input type="text" name="name" placeholder="Tu nombre" required>
+        </label>
+        <label>
+          Teléfono
+          <input type="tel" name="phone" placeholder="Tu teléfono">
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" placeholder="tu@email.com">
+        </label>
+        <label class="full-width">
+          Mensaje
+          <textarea name="message" rows="5" placeholder="Cuéntanos qué propiedad te interesa"></textarea>
+        </label>
+        <div class="form-actions full-width">
+          <button class="button" type="submit">Enviar por WhatsApp</button>
+          <button class="button button-secondary" type="button" id="send-email">Enviar por correo</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="brand">
+      <img src="./assets/logo-acapulco.png" alt="Perla del Pacífico Acapulco — Guerrero">
+    </div>
+    <div class="footer-links">
+      <a href="#nosotros">Nosotros</a>
+      <a href="#concepto">Concepto</a>
+      <a href="#amenidades">Amenidades</a>
+      <a href="#fotos">Galería</a>
+      <a href="#propiedades">Propiedades</a>
+      <a href="#contacto">Contacto</a>
+      <a href="./privacy-policy/">Política de privacidad</a>
+    </div>
+  </footer>
+
+  <script>
+    // ─────────────────────────────────────────────────────────────
+    // Datos de contacto que reciben los mensajes del formulario.
+    // WhatsApp: código de país + número, solo dígitos, sin + ni espacios.
+    var WHATSAPP_NUMERO = '525541944670';
+    var EMAIL_DESTINO   = 'rene67camargo@hotmail.com';
+    // ─────────────────────────────────────────────────────────────
+
+    var contactForm = document.getElementById('contact-form');
+
+    function armarMensaje() {
+      var datos = new FormData(contactForm);
+      var valor = function (campo) { return (datos.get(campo) || '').toString().trim(); };
+
+      var lineas = [
+        'Hola, me interesa Perla del Pacífico Acapulco.',
+        '',
+        'Nombre: ' + valor('name')
+      ];
+
+      if (valor('phone')) { lineas.push('Teléfono: ' + valor('phone')); }
+      if (valor('email')) { lineas.push('Email: ' + valor('email')); }
+      if (valor('message')) { lineas.push('', valor('message')); }
+
+      return lineas.join('\n');
+    }
+
+    contactForm.addEventListener('submit', function (event) {
+      event.preventDefault();
+
+      if (!/^\d{10,15}$/.test(WHATSAPP_NUMERO)) {
+        alert('Falta configurar el número de WhatsApp en el sitio.');
+        return;
+      }
+
+      window.open(
+        'https://wa.me/' + WHATSAPP_NUMERO + '?text=' + encodeURIComponent(armarMensaje()),
+        '_blank',
+        'noopener'
+      );
+    });
+
+    document.getElementById('send-email').addEventListener('click', function () {
+      if (!contactForm.reportValidity()) { return; }
+
+      if (EMAIL_DESTINO.indexOf('@') === -1) {
+        alert('Falta configurar el correo de contacto en el sitio.');
+        return;
+      }
+
+      window.location.href = 'mailto:' + EMAIL_DESTINO +
+        '?subject=' + encodeURIComponent('Interesado en Perla del Pacífico Acapulco') +
+        '&body=' + encodeURIComponent(armarMensaje());
+    });
+
+    document.querySelectorAll('.carousel').forEach(function (carousel) {
+      var track = carousel.querySelector('.carousel-track');
+      var step = function () { return track.clientWidth * 0.8; };
+
+      carousel.querySelector('.prev').addEventListener('click', function () {
+        track.scrollBy({ left: -step(), behavior: 'smooth' });
+      });
+
+      carousel.querySelector('.next').addEventListener('click', function () {
+        track.scrollBy({ left: step(), behavior: 'smooth' });
+      });
+    });
+  </script>
 </body>
 </html>
